@@ -129,9 +129,17 @@
         padding: 5px;
     }
 
+    .section1 .col-4 {
+        width: 33.33%;
+    }
+
     .col-4 {
         width: 50%;
     }
+
+    /* .section1 .col-4 {
+        width: 33.33%;
+    } */
 
     .links {
         display: none;
@@ -157,11 +165,12 @@
     }
 
     .desc h4 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .desc p {
         font-size: 15px;
+        padding-top: 0;
     }
 
     .section1 h1 {
@@ -175,9 +184,12 @@
         line-height: 20px;
     }
 
+    .desc-block {
+        margin-left: 26.5px;
+    }
 
     .desc svg {
-        margin-left: 85px;
+        margin-left: 100px;
    }
 
    .section3 img {
@@ -203,13 +215,6 @@
    .plan {
         width: 255px;
    }
-
-
-   /* .plan:last-child {
-
-
-
-    } */
 
     .section4 .col-4:last-child {
         margin: 0 auto;
@@ -256,6 +261,7 @@
         width: 33.33%;
     }
 
+
     .section5 h2 {
         margin-top: 35px;
         font-size: 25px;
@@ -271,4 +277,60 @@
         font-size: 25px;
         margin-bottom: 0;
     }
+/* 
+    .footer .span {
+        display: inline;
+    } */
+
+    .footer-desc1 p {
+        font-size: 13px;
+    }
+
+    .footer-col h6 {
+        font-size: 15px;
+        padding-bottom: 0;
+    }
+
+    .footer-col a {
+        font-size: 13px;
+    }
+
+    .get {
+        /* margin-top: 30px; */
+        padding: 10px 50px;
+        font-size: 15px;
+    }
+
+    .title-sub h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .subscribe p {
+        font-size: 12px;
+        padding-bottom: 38px;
+    }
+
+    .footer-col a {
+        padding-top: 8px;
+    }
+
+    .subscribe {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 38px
+    }
+
 }
+
+
+/* @media (max-width: 576px) {
+
+    .container {
+        max-width: 540px;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+} */
