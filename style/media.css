@@ -62,6 +62,18 @@
 
 @media (max-width: 992px) {
 
+    .section6 .col-4 {
+        margin-right: 150px;
+    }
+
+    .carts {
+        width: 450px;
+    }
+
+    .rating {
+        margin-left: 150px;
+    }
+
     .container {
         max-width: 900px;
     }
@@ -112,6 +124,12 @@
     .title-sub h2 {
         font-size: 25px;
     }
+
+    .cart3 {
+        display: none;
+    }
+
+    
 }
 
 
@@ -319,6 +337,22 @@
         padding-left: 50px;
         padding-right: 50px;
         padding-top: 38px
+    }
+
+    .carts {
+        width: 350px;
+    }
+
+    .profile-title h5 {
+        font-size: 14px;
+    }
+
+    .rating {
+        margin-left: 80px;
+    }
+
+    .plan h4 {
+        font-size: 20px;
     }
 
 }
