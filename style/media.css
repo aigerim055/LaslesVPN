@@ -49,7 +49,7 @@
     }
 
     .plan-items svg {
-        margin-left: 55px;
+        padding-left: 55px;
     }
 
 
@@ -124,7 +124,7 @@
 
     .section1 h1 {
         font-size: 20px;
-        line-height: 20px;
+        line-height: 25px;
     }
 
     .get {
@@ -214,5 +214,168 @@
         padding: 50px;
     }
 
-    
+    .section4 .col-4:last-child {
+        margin: 0 auto;
+    }
+
+    .desc h4 {
+        font-size: 20px;
+    } 
 }
+
+@media (max-width: 576px) {
+
+    .container {
+        max-width: 540px;
+        padding: 25px;
+    }
+
+    /* .col-4 {
+        width: 100%;
+    } */
+
+    .section4 .col-4 {
+        margin: 0 auto;
+    }
+
+
+    .section5 p {
+        font-size: 10px;
+    }    
+
+    .cart2{
+        display: none;
+    }
+
+    .col-5 {
+        width: 100%;
+    }
+
+    /* .col-4 {
+        width: 100%;
+    } */
+
+    .section4 .col-4 {
+        width: 60%;
+    }
+
+    .plan-items p {
+        font-size: 10px;
+    }
+
+    .section2 .sol-4{
+        width: 50%;
+    }
+
+    .section6 .col-4 {
+        width: 100%;
+    }
+
+    .desc svg {
+        margin-left: 45px;
+    }
+
+    .desc h4 {
+        font-size: 15px;
+    }
+
+    .desc-block {
+        margin-left: 20px;
+    }
+
+    .section3  {
+        text-align: center;
+    }
+
+    .items {
+        margin-left: 150px;
+    }
+
+    .col-7 {
+        width: 100%;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .section2 {
+        margin-top: 0;
+    }
+
+    .section1 .col-6 {
+        text-align: center;
+    }
+
+
+    .plan-items p {
+        padding-left: 10px;
+    }
+    
+
+    .plan-items svg {
+        /* padding-left: 60px; */
+        width: 30%;
+    }
+
+    .get {
+        padding: 10.5px 50.5px;
+        font-size: 10px;
+    }
+
+    .span {
+        display: inline;
+    }
+
+
+    .section1 img {
+        margin-top: 20px;
+    }
+
+    .desc p {
+        font-size: 15px;
+        padding-top: 0;
+        line-height: 0;
+    }
+
+    .title-sub {
+        display: block;
+    }
+
+    .subscribe {
+        /* margin: 0 auto; */
+        text-align: center;
+    }
+
+    .header {
+        padding-top: 0;
+    }
+
+    .title-sub button {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .subscribe {
+        padding: 30px;
+    }
+
+    .footer-desc1 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .footer-col {
+        text-align: center;
+    }
+
+    .footer .col-4:last-child {
+        margin: 0 auto;
+    }
+
+
+    .plan h4 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+} 
