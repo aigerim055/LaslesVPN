@@ -1,90 +1,33 @@
-@media (max-width: 1200px) {
+
+
+@media (max-width: 1024px) {
 
     .container {
-        max-width: 1000px;
+        max-width: 940px;
+    }
+    
+    
+    .links a:not(:last-child) {
+        margin-right: 20px;
     }
 
-    .section1 img {
-        width: 100%;
-    }
+    /* .span {
+        display: inline;
+    } */
 
     .section1 h1 {
-        font-size: 35px;
-        padding-top: 10px;
-        line-height: 50px ;
+        font-size: 30px;
+        line-height: 35px;
     }
 
-   .section1 {
-        margin-top: 60px;
-   }
 
-   .section2 {
-        margin-top: 80px;
-   }
 
-   .desc svg {
-        margin-left: 60px;
-   }
-
-   .section4 h2 {
-        margin-top:50px ;
-   }
-
-   .plan {
-        width: 310px;
-   }
-
-   .plan-items svg{
-        margin-left: 60px;
-   }
-
-   .section5 img {
-        width: 100%;
-   }
-
-   .section5 p {
-        padding-bottom: 60px;
-   }
-
-   .carts {
-        width: 350px;
-        height: 300px;
-   }
-
-   .profile-title h5 {
-        font-size: 16px;
-   }
-
-   .rating {
-        margin-left: 50px;
-   }
-}
-
-@media (max-width: 992px) {
-
-    .section6 .col-4 {
-        margin-right: 150px;
-    }
-
-    .carts {
-        width: 450px;
-    }
-
-    .rating {
-        margin-left: 150px;
-    }
-
-    .container {
-        max-width: 900px;
-    }
-
-    .links a:not(:last-child) {
-        margin-right: 13px;
-    }
-
-    .get{
+    .get {
         margin-top: 30px;
-        padding: 14px 50px;
+    }
+
+    .desc svg {
+        margin-left: 60px;
     }
 
     .section3 img {
@@ -92,84 +35,73 @@
     }
 
     .section3 h2 {
-        font-size: 25px;
-        padding-bottom: 10px;
-        margin-top: 15px;
+        font-size: 30px;
+        margin-top: 30px;
+        line-height: 40px;
     }
 
-    .section3 .span {
+    .section3 .cpan {
         display: inline;
-    }
-
-    .items:not(:last-child) {
-        padding-bottom: 10px;
-    }
-
-    .plan {
-        width: 280px;
     }
 
     .section4 h2 {
         margin-top: 0;
     }
 
-    .section1 h1 {
-        font-size: 28px;
+    .plan-items svg {
+        margin-left: 55px;
     }
 
-    .section1 .span {
-        display: inline;
+
+    .section2 h2 {
+        font-size: 30px;
+        margin-top: 0;
+        line-height: 40px;
     }
 
-    .title-sub h2 {
-        font-size: 25px;
+    .section6 h2 {
+        font-size: 30px;
+        margin-top: 0;
     }
 
-    .cart3 {
-        display: none;
+    .profile-title h5 {
+        font-size: 14px;
+        line-height: 15px;
     }
 
-    
+    .profile-title p {
+        line-height: 15px;
+    }
+
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 790px) {
 
     .container {
-        width: 720px;
-    }
-
-    .section6 .row {
-        flex-wrap: wrap;
-    }
-
-    .footer {
-        padding: 5px;
-    }
-
-    .section1 .col-4 {
-        width: 33.33%;
-    }
-
-    .col-4 {
-        width: 50%;
-    }
-
-    /* .section1 .col-4 {
-        width: 33.33%;
-    } */
-
-    .links {
-        display: none;
+        max-width: 700px;
+        padding: 10px;
     }
 
     .nav {
         display: none;
     }
 
-    .burger svg {
-        width: 50px;
+    .links {
+        display: none;
+    }
+
+    .burger svg{
         display: block;
+        width: 50px;
+    }
+
+    .col-4 {
+        width: 50%;
+    }
+
+    .cart3 {
+        display: none;
     }
 
     .line1::after {
@@ -182,189 +114,105 @@
         bottom: 38px;
     }
 
-    .desc h4 {
-        font-size: 15px;
-    }
-
-    .desc p {
-        font-size: 15px;
-        padding-top: 0;
-    }
-
-    .section1 h1 {
-        font-size: 23px;
-        line-height: 30px;
+    .section1 {
+        margin: 0;
     }
 
     .section1 p {
-        font-size: 13px;
-        margin-top:15px;
+        line-height: 17px;
+    }
+
+    .section1 h1 {
+        font-size: 20px;
         line-height: 20px;
     }
 
-    .desc-block {
-        margin-left: 26.5px;
+    .get {
+        padding: 14.5px 60.5px;
     }
 
-    .desc svg {
-        margin-left: 100px;
-   }
-
-   .section3 img {
+    .section3 img {
+        margin-left: 0;
         width: 100%;
-   }
+    }
 
-   .section3 h2 {
-        font-size: 20px;
-        line-height: 23px;
-   }
+    .section3 {
+        margin-top: 30px;
+    }
 
-   .section3 .p {
-        font-size: 15px;
-        line-height: 19px;
-   }
-
-   .section4 h2 {
-        font-size: 23px;
-        padding-top: 40px;
+    .section3 h2 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .section3 .p {
+        font-size: 14px;
+        line-height: 20px;
         padding-bottom: 10px;
-   }
-
-   .plan {
-        width: 255px;
-   }
-
-    .section4 .col-4:last-child {
-        margin: 0 auto;
     }
 
-    .section6 .col-4:last-child {
-        margin: 0 auto;
-        margin-top: 10px;
-    }
-
-    .section6 .col-4 {
-        margin-right: 0;
-    }
-
-    
-
-    .plan {
-        margin: 0 auto;
-        width: 345px;
-        margin-bottom: 10px;
-        padding-bottom: 20px;
-    }
-
-    .plan-items svg{
-        margin-left: 80px;
-    }
-
-    .plan img {
-        margin-top: 59px;
-        margin-bottom: 10px;
-    }
-
-
-    .section6 {
-        margin-bottom: 150px;
-    }
-
-    .section7 {
-        margin-top: -100px;
-    }
-
-
-    .footer .col-4 {
-        width: 33.33%;
-    }
-
-
-    .section5 h2 {
-        margin-top: 35px;
-        font-size: 25px;
-        margin-bottom: 0;
-    }
-
-    .section5 p {
-        padding-bottom: 15px;
-    }
-
-    .section6 h2 {
-        margin-top: 35px;
-        font-size: 25px;
-        margin-bottom: 0;
-    }
-/* 
-    .footer .span {
+    .section3 .span {
         display: inline;
-    } */
-
-    .footer-desc1 p {
-        font-size: 13px;
     }
 
-    .footer-col h6 {
-        font-size: 15px;
+    .items:not(:last-child) {
+        padding-bottom: 5px;
+    }
+    
+    .section4 h2 {
+        font-size: 18px;
+        line-height: 25px;
         padding-bottom: 0;
     }
 
-    .footer-col a {
-        font-size: 13px;
+    .plan:last-child {
+        margin-top: 10px;
     }
 
-    .get {
-        /* margin-top: 30px; */
-        padding: 10px 50px;
-        font-size: 15px;
+    .plan {
+        padding-bottom: 20px;
+        margin: 0 auto;
+    }
+    .plan img {
+        padding-top: 50px;
+        padding-bottom: 15px;
     }
 
-    .title-sub h2 {
-        font-size: 20px;
-        line-height: 30px;
+    .section5 h2 {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 0;
+        margin-top: 30px;
     }
 
-    .subscribe p {
-        font-size: 12px;
-        padding-bottom: 38px;
+    .section5 p {
+        padding-bottom: 20px;
     }
 
-    .footer-col a {
-        padding-top: 8px;
-    }
-
-    .subscribe {
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 38px
+    .section6 h2 {
+        font-size: 18px;
+        line-height:25px;
     }
 
     .carts {
-        width: 350px;
+        padding: 50px;
     }
 
-    .profile-title h5 {
-        font-size: 14px;
+    .title-sub h2 {
+        font-size: 18px;
+        line-height: 25px;
     }
 
-    .rating {
-        margin-left: 80px;
+    .title-sub button {
+        font-size: 15px;
     }
 
-    .plan h4 {
-        font-size: 20px;
+    .subscribe p {
+        padding-bottom: 0;
     }
 
+    .subscribe {
+        padding: 50px;
+    }
+
+    
 }
-
-
-/* @media (max-width: 576px) {
-
-    .container {
-        max-width: 540px;
-    }
-
-    .col-4 {
-        width: 100%;
-    }
-} */

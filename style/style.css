@@ -68,9 +68,9 @@
     margin-top: 88px;
 }
 
-/* .section1 img{
+.section1 img{
     width: 100%;
-} */
+}
 
 .section1 h1 {
     font-style: normal;
@@ -268,7 +268,7 @@
 }
 
 .plan {
-    width: 360px;
+    /* width: 360px; */
     background: #FFFFFF;
     border: 2px solid #DDDDDD;
     border-radius: 10px;
@@ -285,8 +285,8 @@
     margin-left: auto;
     margin-right: auto;
 
-    margin-top: 79px;
-    margin-bottom: 30px;
+    padding-top: 79px;
+    padding-bottom: 30px;
 
 }
 
@@ -338,9 +338,9 @@
     /* identical to box height, or 120% */
 
     text-align: center;
-    margin-top: 50px;
+    padding-top: 50px;
     color: #0B132A;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .price {
@@ -446,24 +446,24 @@
 .profile {
     display: flex;
     align-items: center;
-    padding-top: 30px;
+    /* padding-top: 30px; */
 }
 
 .rating {
     display: flex;
-    margin-left: 80px;
+    padding-left: 70px;
     align-items: center;
 }  
 
 .profile img {
     display: inline;
     padding-right: 20px;
-    padding-left: 30px;
+    /* padding-left: 30px; */
 }
 
 .profile-title h5 {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
 }
 
@@ -485,18 +485,20 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    margin-top: 20px;
-    padding-left: 30px;
+    padding-top: 20px;
+    /* padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 30px;
-    height: 150px;
+    padding-bottom: 30px; */
+    /* height: 150px; */
 }
 
 .carts {
-    width: 400px;
+    /* width: 100%; */
     border: 2px solid #DDDDDD;
     border-radius: 10px;
-    margin-right: 60px;
+    padding: 30px;
+    height: 100%;
+    /* margin-right: 30px; */
 }
 
 .carts:hover {
@@ -540,9 +542,7 @@
     margin-right: 20px;
 }
 
-.section6 .col-4 {
-    margin-right: 50px;
-}
+
 
 .section6 .row {
     flex-wrap: nowrap;
@@ -641,7 +641,7 @@ footer {
 }
 
 .section5 img {
-
+    width: 100%;
     display: block;
     margin: 0 auto;
 
